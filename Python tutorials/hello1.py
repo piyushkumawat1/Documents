@@ -10,11 +10,11 @@ qr = qrcode.QRCode(
 )
 
 # Add data to the QR code
-qr.add_data("Hey! My Name is Mahendra")
+qr.add_data("Hey! My Name is piyush")
 qr.make(fit=True)
 
 # Generate the QR code image
-img = qr.make_image(fill_color="red", back_color="blue")
+img = qr.make_image(fill_color="black", back_color="white")
 
 # Save the QR code image
 img.save("your_qrcode.png")
